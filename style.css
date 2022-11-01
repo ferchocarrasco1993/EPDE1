@@ -1,0 +1,288 @@
+
+html,
+body {
+    padding: auto;
+    font-family: url("fonts/Fasthand-Regular.ttf");
+    margin: auto;
+    padding: auto;
+    width: 100%;
+}
+
+html {
+    font-size: 10px;
+    background-color: #ffffff;
+    background-size: cover;
+    background-image: url("img/hojas.jpg");
+    margin: auto;
+    padding: auto;
+}
+
+#logo {
+    width: 200px;
+    margin: auto;
+    
+}
+
+.header {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    background-color: #99deb6;
+   
+}
+
+
+
+main {
+    width: 65%;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    padding-top: 10px;
+    text-align: justify;
+    background-image: linear-gradient(rgb(255, 255, 255), #99deb6);
+}
+
+#ajolote{
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+#mandril{
+    width: 200px;
+    height: 200px;
+    float: right;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+#polar{
+    width: 800px;
+    height: 500px;
+    padding-left: 95px;   
+}
+
+#grande {
+    width: 800px;
+    height: 500px;
+    padding-left: 120px;
+    margin: auto;
+}
+
+.lista1 {
+    display: flex; 
+
+}
+
+.lista2 {
+    display: flex; 
+    padding-top: 50px;
+}
+
+#cernicalo{
+    width: 300px;
+    height: 300px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: auto;
+    position: relative; 
+}
+
+#malvasia{
+    width: 300px;
+    height: 300px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: auto;
+    position: relative; 
+}
+
+#nutria{
+    width: 300px;
+    height: 300px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: auto;
+    position: relative; 
+}
+
+#perdicera{
+    width: 300px;
+    height: 300px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+
+#fartet{
+    width: 300px;
+    height: 300px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+
+.cernicalo{
+    text-align: center;
+    margin: auto;
+}
+
+.malvasia{
+    text-align: center;
+    margin: auto;
+}
+
+.nutria{
+    text-align: center;
+    margin: auto;
+}
+
+.perdicera{
+    text-align: center;
+    margin: auto;
+
+}
+
+.fartet{
+    text-align: center;
+    margin:auto;
+}
+
+
+
+
+aside {
+    width: 15%;
+    margin-left: 10px;
+    background-color: #99deb6;
+    align-content: flex-start;
+    float: left;
+}
+
+aside li {
+    padding-bottom: 10px;
+    margin-bottom: 1;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.footer{
+    height: 150px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    background-color: #99deb6;
+    display: flex;
+    margin-bottom: 5px;
+
+}
+
+footer li {
+    display: inline;
+    text-align: center;
+    flex: 5;
+    border-left-width: 4px;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+/* || typography */
+
+p,
+input,
+li {
+    font-family: 'Gagalin', sans-serif;
+    color: #2a2a2a;
+}
+
+h1 {
+    font-size: 60px;
+    color: #4e3625;
+    text-shadow: 2px 2px 10px white;
+    font-family: fantasy;
+    word-spacing: 20px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 5rem;
+    color: #4e3627;
+    text-align: center;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    font-size: 2.2rem;
+}
+
+p,
+li {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+
+/* || header layout */
+
+nav {
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+    background-color: #99deb6;
+    display: flex;
+    margin-bottom: 5px;
+    border-left-width: 4px;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+}
+
+nav li {
+    display: inline;
+    text-align: center;
+    flex:1;
+    border-left-width: 4px;
+}
+
+nav a {
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+input {
+    font-size: 1.6rem;
+    height: 32px;
+}
+
+
+input[type="submit"] {
+    flex: 1;
+    margin-left: 1rem;
+    background: #333;
+    border: 0;
+    color: white;
+    width: 100px;
+}
+
+
+
